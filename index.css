@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* Light gray background */
+    background-color: #f8f9fa; /* Light gray background */
 }
 
 .container {
@@ -10,20 +10,23 @@ body {
     margin: 50px auto;
     padding: 20px;
     text-align: center;
-    background-color: #ffffff; /* White container background */
+    background-color: #f2f2f2; /* Lighter gray container background */
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Light box shadow */
 }
 
 h1 {
-    color: #333;
+    color: #007bff; /* Blue color */
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-transform: uppercase; /* Uppercase text */
 }
 
 button {
     padding: 12px 24px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #4CAF50;
+    background-color: #007bff; /* Blue color */
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -32,7 +35,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #0056b3; /* Darker blue on hover */
 }
 
 form {
@@ -52,6 +55,8 @@ input {
     width: 100%; /* Full width input */
     box-sizing: border-box; /* Include padding in width */
     margin-bottom: 16px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
 }
 
 #connectButton {
@@ -62,7 +67,7 @@ input {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    background-color: #45a049; /* Blue color for Metamask */
+    background-color: #007bff; /* Blue color */
     color: #fff;
     padding: 8px 12px;
     border-radius: 5px;
@@ -71,11 +76,11 @@ input {
 }
 
 #connectButton:hover {
-    background-color: #2980b9;
+    background-color: #0056b3; /* Darker blue on hover */
 }
 
 #serializeContainer {
-    background-color: #ffffff; /* White container background */
+    background-color: #f2f2f2; /* Lighter gray container background */
     padding: 20px;
     border-radius: 10px;
     margin-top: 20px;
@@ -85,13 +90,5 @@ input {
 #serializedTx {
     word-wrap: break-word;
     font-size: 14px;
-    color: #333;
-}
-
-h1 {
-    color: #27ae60; /* Green color */
-    font-size: 32px;
-    margin-bottom: 20px;
-    text-transform: uppercase; /* Uppercase text */
-    letter-spacing: 2px; /* Letter spacing for emphasis */
+    color: #333; /* Dark gray color */
 }
